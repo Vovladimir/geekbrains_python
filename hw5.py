@@ -18,7 +18,7 @@ if new_element in my_list:
     my_list.insert(my_list.index(new_element), new_element)
 else:
     for el in my_list:
-        if new_element < el:
+        if new_element <= el:
             el_index += 1
 
     my_list.insert(el_index, new_element)
