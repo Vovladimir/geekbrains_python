@@ -4,5 +4,5 @@
 Если в слово длинное, выводить только первые 10 букв в слове.
 '''
 my_string = input('Введите несколько слов через пробел: ').split()
-for element in enumerate(my_string):
+for element in enumerate(my_string, 1):
     print(f'{element[0]} {element[1][:10]}')
